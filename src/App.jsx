@@ -98,9 +98,7 @@ function App() {
             <div className="portrait-outline" />
 
             <div className="portrait-frame">
-              <img
-                src="/profile.png"
-                alt="Моя фотография"
+             <img src={`${import.meta.env.BASE_URL}profile.png`} alt="My photo"
                 className="profile-photo"
               />
               <div className="photo-overlay" />
